@@ -100,6 +100,14 @@
   padding-bottom: 5px;
 }
 
+.teaser.yellow a:any-link.teaser-link {
+  background-color: yellow;
+}
+
+.teaser.green a:any-link.teaser-link {
+  background-color: green;
+}
+
 @media (width <= 900px) {
   .teaser {
     flex-direction: column-reverse;
