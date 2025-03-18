@@ -356,7 +356,7 @@
       {
         "component": "multiselect",
         "name": "classes",
-        "value": "align-right",
+        "value": "",
         "label": "Style",
         "valueType": "string",
         "options": [
@@ -383,6 +383,15 @@
               {
                 "name": "Secondary",
                 "value": "bg-secondary"
+              }
+            ]
+          },
+          {
+            "name": "Hide on mobile",
+            "children": [
+              {
+                "name": "True",
+                "value": "mobile-hidden"
               }
             ]
           }
