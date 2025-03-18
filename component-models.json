@@ -26,6 +26,27 @@
         "component": "text",
         "name": "enrichment-positions",
         "label": "Enrichment Positions"
+      },
+      {
+        "component": "select",
+        "name": "design",
+        "value": "",
+        "label": "Design",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Design 1",
+            "value": "design1"
+          },
+          {
+            "name": "Design 2",
+            "value": "design2"
+          },
+          {
+            "name": "Design 3",
+            "value": "design3"
+          }
+        ]
       }
     ]
   },
