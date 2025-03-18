@@ -35,6 +35,10 @@
         "valueType": "string",
         "options": [
           {
+            "name": "",
+            "value": ""
+          },
+          {
             "name": "Design 1",
             "value": "design1"
           },
