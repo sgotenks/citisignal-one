@@ -394,6 +394,19 @@
                 "value": "mobile-hidden"
               }
             ]
+          },
+          {
+            "name": "Button color",
+            "children": [
+              {
+                "name": "Yellow",
+                "value": "yellow"
+              },
+              {
+                "name": "Green",
+                "value": "green"
+              }
+            ]
           }
         ]
       },
