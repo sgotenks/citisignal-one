@@ -15,7 +15,7 @@
  :root {
   /* general properties */
   --primary-color: #8821f4;
-  --secondary-color: #3C1268;
+  --secondary-color: red;
   /* general borders */
   --border: none;
   --border-radius: 18px;
