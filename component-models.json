@@ -1165,6 +1165,15 @@
                 "value": "autoplay"
               }
             ]
+          },
+          {
+            "name": "Width",
+            "children": [
+              {
+                "name": "Full width",
+                "value": "full-width"
+              }
+            ]
           }
         ]
       },
