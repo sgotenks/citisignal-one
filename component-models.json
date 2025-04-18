@@ -808,6 +808,33 @@
     ]
   },
   {
+    "id": "carousel",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Height",
+            "children": [
+              {
+                "name": "Standard",
+                "value": ""
+              },
+              {
+                "name": "Max Height",
+                "value": "max-height"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "carousel-item",
     "fields": [
       {
