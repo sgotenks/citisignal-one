@@ -428,7 +428,7 @@
               },
               {
                 "name": "None",
-                "value": "none-secondary"
+                "value": "bg-none"
               }
             ]
           },
