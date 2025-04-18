@@ -399,6 +399,23 @@
             ]
           },
           {
+            "name": "Height",
+            "children": [
+              {
+                "name": "Short",
+                "value": ""
+              },
+              {
+                "name": "Medium",
+                "value": "medium-height"
+              },
+              {
+                "name": "High",
+                "value": "high-height"
+              }
+            ]
+          },
+          {
             "name": "Background",
             "children": [
               {
@@ -408,6 +425,10 @@
               {
                 "name": "Secondary",
                 "value": "bg-secondary"
+              },
+              {
+                "name": "None",
+                "value": "none-secondary"
               }
             ]
           },
