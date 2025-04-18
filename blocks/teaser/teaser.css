@@ -8,10 +8,14 @@
 
 .teaser.medium.medium-height {
   max-height: 340px;
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
 
 .teaser.high-height {
   max-height: 410px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .teaser.align-right {
@@ -43,6 +47,10 @@
 }
 
 .teaser.bg-secondary > div:not(.teaser-img-col) {
+  color: white;
+}
+
+.teaser.bg-none > div:not(.teaser-img-col) {
   color: #000;
 }
 
