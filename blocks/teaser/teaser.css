@@ -6,6 +6,14 @@
   border-radius: var(--border-radius);
 }
 
+.teaser.medium.medium-height {
+  max-height: 340px;
+}
+
+.teaser.high-height {
+  max-height: 410px;
+}
+
 .teaser.align-right {
   display: flex;
   flex-direction: row-reverse;
