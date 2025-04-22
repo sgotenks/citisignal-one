@@ -8,7 +8,7 @@ export default async function decorate(block) {
   //const url = `https://publish-p129757-e1266090.adobeaemcloud.com/graphql/execute.json/securbank/FAQListbyTag;tag=${firsttag};variation=${variationname}?ts=${cachebuster}`;
   const aempublishurl = 'https://publish-p129757-e1266090.adobeaemcloud.com';
   const aemauthorurl = 'https://author-p129757-e1266090.adobeaemcloud.com';
-  const persistedquery = '/graphql/execute.json/citisignal-marketing/EventsListByTag';
+  const persistedquery = '/graphql/execute.json/citisignal-one/EventsListByTag';
   const options = {};
 
   const url = window.location && window.location.origin && window.location.origin.includes('author')
