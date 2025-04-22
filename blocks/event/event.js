@@ -22,7 +22,7 @@ export default async function decorate(block) {
   let itemsHTML = '';
   index.data.eventList.items.forEach((item) => {
     itemsHTML += `
-    <li data-aue-resource="urn:aemconnection:${item._path}/jcr:content/data/master" data-aue-type="reference" data-aue-label="event content fragment" data-aue-filter="cf" class="event">
+    <li data-aue-resource="urn:aemconnection:${item._path}/jcr:content/data/master" data-aue-type="reference" data-aue-label="event-li content fragment" data-aue-filter="cf" class="event">
         <div class="event-image">
       		<picture>
             <img loading="lazy" alt="" src="${aempublishurl + cfReq.heroImage._dynamicUrl}" data-aue-prop="picture" data-aue-label="Picture" data-aue-type="media" class='event-picture'>
@@ -38,7 +38,7 @@ export default async function decorate(block) {
 
   block.innerHTML = `
     <h2 class='section-heading'>Eventi</h2>
-    <ul class="events-list">
+    <ul class="event-list">
       ${itemsHTML}
     </ul>`;
 }
