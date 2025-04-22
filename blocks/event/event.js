@@ -25,7 +25,7 @@ export default async function decorate(block) {
     <li data-aue-resource="urn:aemconnection:${item._path}/jcr:content/data/master" data-aue-type="reference" data-aue-label="event-li content fragment" data-aue-filter="cf" class="event">
         <div class="event-image">
       		<picture>
-            <img loading="lazy" alt="" src="${aempublishurl + item.heroImage._dynamicUrl}" data-aue-prop="picture" data-aue-label="Picture" data-aue-type="media" class='event-picture'>
+            <img loading="lazy" alt="" src="${aempublishurl + item.picture._dynamicUrl}" data-aue-prop="picture" data-aue-label="Picture" data-aue-type="media" class='event-picture'>
           </picture>
       	</div>
         <div class="event-body">
