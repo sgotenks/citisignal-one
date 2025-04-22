@@ -25,11 +25,11 @@ export default async function decorate(block) {
     <li data-aue-resource="urn:aemconnection:${item._path}/jcr:content/data/master" data-aue-type="reference" data-aue-label="event-li content fragment" data-aue-filter="cf" class="event">
         <div class="event-image">
       		<picture>
-            <img loading="lazy" alt="" src="${aempublishurl + cfReq.heroImage._dynamicUrl}" data-aue-prop="picture" data-aue-label="Picture" data-aue-type="media" class='event-picture'>
+            <img loading="lazy" alt="" src="${aempublishurl + item.heroImage._dynamicUrl}" data-aue-prop="picture" data-aue-label="Picture" data-aue-type="media" class='event-picture'>
           </picture>
       	</div>
         <div class="event-body">
-            <div data-aue-prop="location" data-aue-label="Location" data-aue-filter="text" data-aue-type="text" class="event-location">${item.location}</div>
+            <div data-aue-prop="location" data-aue-label="Location" data-aue-filter="text" data-aue-type="text" class="event-location">${item.location[0]}</div>
     			  <div data-aue-prop="title" data-aue-label="Title" data-aue-filter="text" data-aue-type="text" class="event-title">${item.title}</div>
             <div data-aue-prop="ctaText" data-aue-label="Call to action" data-aue-filter="text" data-aue-type="text" class="event-cta">${item.ctaText}</div>
     	  </div>
