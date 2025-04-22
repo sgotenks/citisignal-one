@@ -1435,7 +1435,7 @@
       {
         "component": "aem-tag",
         "name": "tags",
-        "value": "rinascente",
+        "value": "",
         "label": "Tag",
         "valueType": "string",
         "rootPath": "/content/cq:tags"
