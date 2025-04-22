@@ -1438,7 +1438,7 @@
         "value": "rinascente",
         "label": "Tag",
         "valueType": "string",
-        "rootPath": "/content/cq:tags/rinascente"
+        "rootPath": "/content/cq:tags"
       },
       {
         "component": "text-input",
