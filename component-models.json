@@ -1428,5 +1428,25 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "event",
+    "fields": [
+      {
+        "component": "aem-tag",
+        "name": "tags",
+        "value": "rinascente",
+        "label": "Tag",
+        "valueType": "string",
+        "rootPath": "/content/cq:tags/rinascente"
+      },
+      {
+        "component": "text-input",
+        "name": "variation",
+        "value": "master",
+        "label": "Variation",
+        "valueType": "string"
+      }
+    ]
   }
 ]
