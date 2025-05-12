@@ -37,7 +37,7 @@ export default async function decorate(block) {
   });
 
   block.innerHTML = `
-    <h2 class='section-heading'>Eventi</h2>
+    <h2 class='section-heading'>Events</h2>
     <ul class="event-list">
       ${itemsHTML}
     </ul>`;
