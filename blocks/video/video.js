@@ -109,7 +109,7 @@ const loadVideoEmbed = (block, link, autoplay, background) => {
 export default async function decorate(block) {
   const placeholder = block.querySelector('picture');
   const link = block.querySelector('a').href;
-  const richTextElement = block.querySelector('[data-richtext-prop="text"]');
+  const richTextElement = block.querySelector('[data-aue-type="richtext"]');
 
 
   
