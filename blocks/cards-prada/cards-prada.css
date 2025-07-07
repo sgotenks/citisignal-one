@@ -60,7 +60,7 @@
     text-decoration: none;
     text-underline-offset: 0px;
     color: white;
-    background-color: black;
+    background-color: blue;
 }
 
 @media (width <= 600px) {
