@@ -3,17 +3,21 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(490px, 1fr));
   grid-gap: 16px;
 }
 
 .cards-prada > ul > li {
   border: 1px solid var(--dark-color);
   background-color: var(--background-color);
+  position: relative;
 }
 
 .cards-prada .cards-card-body {
   margin: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .cards-prada .cards-card-image {
@@ -31,6 +35,15 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+
+.cards-prada p {
+    margin: 0;
+}
+
+.cards-prada p.button-container {
+    margin-top: 1em;
 }
 
 @media (width <= 600px) {
