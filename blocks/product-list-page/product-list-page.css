@@ -164,3 +164,16 @@
 .product-list-page .ds-widgets_results .ds-sdk-filter-button {
   display: none;
 }
+
+
+/** PRADA **/
+
+.product-list-page .ds-sdk-product-item__main .ds-sdk-product-price p {
+    display: none;
+}
+
+.product-list-page .ds-widgets .ds-sdk-product-list .ds-sdk-product-list__grid .ds-sdk-product-item__product-name {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
