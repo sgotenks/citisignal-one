@@ -33,7 +33,6 @@
 
 .cards-prada > ul > li img {
   width: 100%;
-  aspect-ratio: 4 / 3;
   object-fit: cover;
 }
 
@@ -44,6 +43,13 @@
 
 .cards-prada p.button-container {
     margin-top: 1em;
+}
+
+.cards-prada a:any-link.button {
+    width: fit-content;
+    padding: var(--button-padding);
+    background-color: trasnparent;
+    border-radius: 0;
 }
 
 @media (width <= 600px) {
