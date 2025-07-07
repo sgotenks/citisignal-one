@@ -48,7 +48,7 @@
 .cards-prada a:any-link.button {
     width: fit-content;
     padding: var(--button-padding);
-    background-color: trasnparent;
+    background-color: transparent;
     border-radius: 0;
     color: black;
     padding: 0 0 0 0.2em;
@@ -60,6 +60,7 @@
     text-decoration: none;
     text-underline-offset: 0px;
     color: white;
+    background-color: black;
 }
 
 @media (width <= 600px) {
