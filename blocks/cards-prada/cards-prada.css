@@ -39,10 +39,11 @@
 
 .cards-prada p {
     margin: 0;
+    font-size: 1em;
 }
 
 .cards-prada p.button-container {
-    margin-top: 1em;
+    margin-top: 0.5em;
 }
 
 .cards-prada a:any-link.button {
@@ -54,7 +55,9 @@
     padding: 0 0 0 0.2em;
     text-decoration: solid underline black;
     text-underline-offset: 6px;
-    --transition-hp-animation: transform 0.6s ease-in-out 0.2s, opacity 0.6s ease-in-out 0.2s --background-product-image-color: #ebebed;
+    font-size: 0.9em;
+    font-weight: bold;
+    transition: background-color 200ms linear;
 }
 
 .cards-prada a:not(.dropin-design a):hover {
