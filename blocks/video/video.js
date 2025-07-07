@@ -109,6 +109,10 @@ const loadVideoEmbed = (block, link, autoplay, background) => {
 export default async function decorate(block) {
   const placeholder = block.querySelector('picture');
   const link = block.querySelector('a').href;
+  const richTextElement = block.querySelector('[data-richtext-prop="text"]');
+
+
+  
   block.textContent = '';
   block.dataset.embedIsLoaded = false;
 
@@ -129,6 +133,12 @@ export default async function decorate(block) {
       });
     }
     block.append(wrapper);
+
+    if (richTextElement) {
+      // Retrieve the parent <div> element
+      const parentDiv = richTextElement.closest('div');
+      block.append(parentDiv);
+    }     
   }
 
   if (!placeholder || autoplay) {
