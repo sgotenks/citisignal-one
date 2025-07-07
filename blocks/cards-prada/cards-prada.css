@@ -50,6 +50,16 @@
     padding: var(--button-padding);
     background-color: trasnparent;
     border-radius: 0;
+    color: black;
+    padding: 0 0 0 0.2em;
+    text-decoration: solid underline black;
+    text-underline-offset: 6px;
+}
+
+.cards-prada a:not(.dropin-design a):hover {
+    text-decoration: solid underline var(--color-brand-700);
+    text-underline-offset: 6px;
+    color: white;
 }
 
 @media (width <= 600px) {
