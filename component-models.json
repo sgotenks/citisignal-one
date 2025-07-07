@@ -451,6 +451,11 @@
         "multi": false
       },
       {
+            "component": "custom-asset-namespace:asset-picker",
+            "valueType": "string",
+            "name": "sku"
+      },      
+      {
         "component": "text",
         "valueType": "string",
         "name": "imageAlt",
