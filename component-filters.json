@@ -20,6 +20,7 @@
       "accordion",
       "carousel",
       "cards",
+      "cards-prada",
       "embed",
       "fragment",
       "quote",
@@ -44,6 +45,7 @@
       "columns",
       "accordion",
       "cards",
+      "cards-prada",
       "carousel",
       "embed",
       "fragment",
@@ -86,6 +88,10 @@
   {
     "id": "cards",
     "components": ["card"]
+  },
+  {
+    "id": "cards-prada",
+    "components": ["card-prada"]
   },
   {
     "id": "carousel",
