@@ -136,7 +136,10 @@ export default async function decorate(block) {
 
     if (richTextElement) {
       // Retrieve the parent <div> element
+      const wrapperText = document.createElement('div');
+      wrapperText.classList.add('videotext');
       const parentDiv = richTextElement.closest('div');
+      parentDiv.classList.add('videotext');
       block.append(parentDiv);
     }     
   }
