@@ -1256,8 +1256,15 @@
         "valueType": "string",
         "name": "placeholder_imageAlt",
         "value": "",
-        "label": "Placeholder Image Alt Text"
-      }
+        "label": "Alt Text"
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }   
     ]
   },
   {
