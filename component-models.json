@@ -38,6 +38,16 @@
         "label": "test"
       },
       {
+        "component": "commerce-picker:picker",
+        "name": "sku",
+        "label": "Sku of product",
+        "valueType": "string",
+        "commerce-picker": {
+          "selection-mode": "single",
+          "selection-type": "item"
+        }
+      }, 
+      {
         "component": "select",
         "name": "design",
         "value": "",
