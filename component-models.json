@@ -33,7 +33,7 @@
         "label": "Enrichment Product"
       },
       {
-        "component": "text",
+        "component": "test",
         "name": "test",
         "label": "test"
       },
