@@ -28,16 +28,6 @@
         "label": "Enrichment Positions"
       },
       {
-        "component": "text",
-        "name": "enrichment-product",
-        "label": "Enrichment Product"
-      },
-      {
-        "component": "test",
-        "name": "test",
-        "label": "test"
-      },
-      {
         "component": "commerce-picker:picker",
         "name": "sku",
         "label": "Sku of product",
