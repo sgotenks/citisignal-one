@@ -28,6 +28,16 @@
         "label": "Enrichment Positions"
       },
       {
+        "component": "text",
+        "name": "enrichment-product",
+        "label": "Enrichment Product"
+      },
+      {
+        "component": "text",
+        "name": "test",
+        "label": "test"
+      },
+      {
         "component": "select",
         "name": "design",
         "value": "",
