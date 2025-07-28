@@ -459,17 +459,7 @@
         "name": "image",
         "label": "Image",
         "multi": false
-      },
-      {
-        "component": "commerce-picker:picker",
-        "name": "sku",
-        "label": "Sku of product",
-        "valueType": "string",
-        "commerce-picker": {
-          "selection-mode": "single",
-          "selection-type": "item"
-        }
-      },    
+      },  
       {
         "component": "text",
         "valueType": "string",
