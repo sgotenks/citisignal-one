@@ -51,6 +51,7 @@
   --default-content-border: none;
   --default-content-border-radius: 0;
   --default-content-box-shadow: none;
+  --logo-width: 128px;
   /* accordion only properties */
   --accordion-summary-background: var(--primary-color);
   --accordion-summary-background-open: var(--color-brand-300);
