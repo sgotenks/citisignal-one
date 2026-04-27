@@ -28,7 +28,7 @@
 }
 
 .bg-secondary .cards {
-  color: white;
+  color: var(--text-color);
 }
 
 .cards > ul > li img {
